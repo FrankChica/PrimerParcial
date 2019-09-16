@@ -29,9 +29,13 @@ body {
 
 .hide-mobile {
     display: none;
-    margin-bottom: 3em;
+    margin-bottom: 4em;
     color: #0AC693;
     
+}
+
+.fas {
+font-size: 2.5em;
 }
 
 p{
@@ -75,7 +79,7 @@ p{
 }
 
 .big-hero p {
-    font-size: 0.7em;;
+    font-size: 0.7em;
     color: #D7DEE6;
     padding: 0.3rem 1rem;
     
@@ -90,13 +94,15 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    
 }
+
+
 
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
-    font-size: 2.5em;
+    font-size: 5em;
     margin: 0em 0.3em;
 }
 
