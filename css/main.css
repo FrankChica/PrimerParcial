@@ -20,7 +20,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .src-only {
@@ -29,6 +29,9 @@ body {
 
 .hide-mobile {
     display: none;
+    margin-bottom: 3em;
+    color: #0AC693;
+    
 }
 
 p{
@@ -74,6 +77,8 @@ p{
 .big-hero p {
     font-size: 0.7em;;
     color: #D7DEE6;
+    padding: 0.3rem 1rem;
+    
 
 }
 
@@ -81,10 +86,10 @@ p{
 .social-links{
     list-style: none;
     padding: 0;
-    margin-top: 3em;
+    margin-bottom: 1em;
     display: flex;
     flex-direction: row;
-    justify-content: center
+    justify-content: center;
 
 }
 
@@ -92,6 +97,7 @@ p{
     color: #D7DEE6;
     text-decoration: none;
     font-size: 2.5em;
+    margin: 0em 0.3em;
 }
 
 
