@@ -27,6 +27,7 @@ body {
     display: none;
 }
 
+/*flecha */
 .hide-mobile {
     display: none;
     margin-bottom: 4em;
@@ -34,6 +35,7 @@ body {
     
 }
 
+/*tamaño de la flecha */
 .fas {
 font-size: 2.5em;
 }
@@ -60,11 +62,22 @@ p{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    flex-direction: row-reverse;
+    
+
 
 }
+
+
 .options i:last-child {
-    font-size: 1.6rem;
+    font-size: 2rem;
+    display: flex;
+    color: whitesmoke;
+
 }
+
+
+
 
 /* Big area */
 .big-hero img {
@@ -86,6 +99,10 @@ p{
 
 }
 
+ul#menu li:last-child a {
+color: #F74442
+}
+
 /* Social links*/
 .social-links{
     list-style: none;
@@ -94,16 +111,18 @@ p{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    margin-top: -2em;
 }
 
 
-
+/* elementos o iconos que estan dentro de la lista social links   */
 .social-links li a{
     color: #D7DEE6;
     text-decoration: none;
     font-size: 5em;
     margin: 0em 0.3em;
+    
+
 }
 
 
@@ -125,6 +144,7 @@ p{
 
 .post ul {
     list-style: none;
+    display: flex;
 }
 
 .post ul li {
@@ -165,10 +185,17 @@ p{
 }
 
 /* About */
-
 .about{
     margin-top: 2em;
 }
+
+.about .container{
+display: grid;
+grid-template-rows: 2;
+grid-template-columns: 2;
+}
+
+
 
 .about h2 {
     text-transform: uppercase;
@@ -176,6 +203,12 @@ p{
     font-size: 1.125em;
     margin: 2em;
 }
+
+/* logo e informacion */
+.bio-info{
+
+}
+
 
 .bio-info img{
    width: 200px;
