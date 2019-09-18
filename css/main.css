@@ -99,12 +99,11 @@ p{
     font-size: 0.7em;
     color: #D7DEE6;
     padding: 0.3rem 1rem;
-    
-
 }
 
-ul#menu li:last-child a {
-color: #F74442
+/* se agrego hover al nav */
+ul#menu li a:hover {
+color: #F74442;
 }
 
 /* Social links*/
