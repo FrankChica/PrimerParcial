@@ -78,6 +78,7 @@ p{
     font-size: 2rem;
     display: flex;
     color: whitesmoke;
+    padding-top: 0.2em;
 
 }
 
@@ -196,48 +197,8 @@ color: #F74442
     margin-top: 2em;
 }
 
-.about .container{
-display: grid;
-grid-template-rows: 200px 1fr;
-grid-template-columns: repeat(2,1fr);
-
-}
-
-.about h2 {
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 1.125em;
-    margin: 2em;
-    grid-column: span 2;
-    grid-row: 1;    
-}
-
-/* logo e informacion */
-.bio-info{
-grid-column: 1;
-grid-row: 2;
-}
-
-.bio-info img{
-   width: 200px;
-}
-
-.bio-info p{
-    font-size: 16px;
-    padding: 2em;
-    text-align: left;
-    line-height: 25px;
-    letter-spacing: 2px;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding: 0px 1em;
-    grid-column: 2;
-    grid-row: 2;
-    margin-bottom: 1.5em;
+.about h2{
+    margin-bottom: 3em;
 }
 
 .contact * + * {
@@ -247,6 +208,8 @@ grid-row: 2;
 .contact-form {
     display: flex;
     flex-direction: column;
+    padding: 0em 3em;
+    margin-bottom: 2em;
 }
 
 .contact-form input, .contact-form textarea{
@@ -377,6 +340,53 @@ footer .social-links {
     .container {
         width: 80%;
         margin: 0 auto;
-        max-width: 1440px;
+        max-width: 90%;
     }
+
+    /* contenedor de about */
+.about .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100vw;
+    }
+    
+    .about h2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.125em;
+        margin: 2em;
+        width: 100%; 
+    }
+    
+    /* logo e informacion */
+    .bio-info{
+    width:46%;
+    }
+    
+    .bio-info img{
+       width: 200px;
+    }
+    
+    .bio-info p{
+        font-size: 16px;
+        padding: 2em;
+        text-align: left;
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding: 0px 1em;
+        width:46%;
+        margin-bottom: 1.5em;
+        
+    }
+
+    
+
 }
