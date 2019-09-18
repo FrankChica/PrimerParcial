@@ -68,11 +68,7 @@ p{
     align-items: flex-start;
     flex-direction: row-reverse;
     margin-top:-1em;
-    
-
-
 }
-
 
 .options i:last-child {
     font-size: 2rem;
@@ -195,6 +191,10 @@ color: #F74442
 /* About */
 .about{
     margin-top: 2em;
+}
+
+.bio-info p{
+    text-align: left;
 }
 
 .about h2{
