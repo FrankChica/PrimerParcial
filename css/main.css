@@ -40,6 +40,10 @@ body {
 font-size: 2.5em;
 }
 
+.fas.fa-bars{
+    font-size: 1em;
+}
+
 p{
     font-size: 0.75em;
     padding: 1rem;
@@ -63,6 +67,7 @@ p{
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: row-reverse;
+    margin-top:-1em;
     
 
 
@@ -76,7 +81,9 @@ p{
 
 }
 
-
+.fas.fa-bars{
+    margin-left: 0.3em;
+}
 
 
 /* Big area */
@@ -125,7 +132,7 @@ color: #F74442
 
 }
 
-
+/* toda el area verde que contiene articulos */ 
 .green-area {
     background-color: #0AC693; 
 }
@@ -144,7 +151,7 @@ color: #F74442
 
 .post ul {
     list-style: none;
-    display: flex;
+    
 }
 
 .post ul li {
@@ -191,24 +198,25 @@ color: #F74442
 
 .about .container{
 display: grid;
-grid-template-rows: 2;
-grid-template-columns: 2;
+grid-template-rows: 200px 1fr;
+grid-template-columns: repeat(2,1fr);
+
 }
-
-
 
 .about h2 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.125em;
     margin: 2em;
+    grid-column: span 2;
+    grid-row: 1;    
 }
 
 /* logo e informacion */
 .bio-info{
-
+grid-column: 1;
+grid-row: 2;
 }
-
 
 .bio-info img{
    width: 200px;
@@ -227,6 +235,9 @@ grid-template-columns: 2;
     flex-direction: column;
     text-align: left;
     padding: 0px 1em;
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 1.5em;
 }
 
 .contact * + * {
