@@ -236,6 +236,7 @@ color: #F74442;
     font-weight: 400;
     color: white;
     font-size: 1rem;
+    
 }
 
 .black-decoration{
@@ -328,6 +329,9 @@ footer .social-links {
 @media only screen and (min-width: 1024px) {
 
        /*TODO: FALTA CSS */
+       .contact-form input[type=submit] {
+        width: 50%;
+    }
 
 
 
@@ -384,6 +388,10 @@ footer .social-links {
         width:46%;
         margin-bottom: 1.5em;
         
+    }
+
+    .contact-form input[type=submit] {
+        width: 50%;
     }
 
     
